@@ -1,0 +1,898 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://moransh4.github.io/Luca/css/swiper.min.css">
+<script src="https://moransh4.github.io/Luca/js/swiper.jquery.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<section class="places">
+  <div class="container brick">
+    <h1 style="margin-top:0px; margin-bottom: 0px;">Places</h1>
+    <div class="intro">
+      <p>A curated selection of places to eat, drink, and visit. Instantly submerse yourself in the neighborhood at these classic venues, each handpicked by local Chicagoans.
+    </div>
+    <div class="swiper-outside-container">
+    
+      <div class="swiper-container experiences-slider">
+        <div class="swiper-container-title-container">
+          <div class="swiper-container-title">
+            Restaurants
+          </div>
+        </div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_big_star.jpg" style="width:100%;cursor:pointer" onclick="openModal();currentDiv(1)" class="w3-hover-shadow" data-keyboard="true">
+                <div class="places-title">Big Star
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_au_cheval.jpg" style="width:100%;cursor:pointer" onclick="openModal();currentDiv(2)" class="w3-hover-shadow">
+                <div class="places-title">Au Cheval
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_green_street_smoked_meats.jpg" style="width:100%;cursor:pointer" onclick="openModal();currentDiv(3)" class="w3-hover-shadow">
+                <div class="places-title">Green Street Smoked Meats
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_gibsons_italia.jpg" style="width:100%;cursor:pointer" onclick="openModal();currentDiv(4)" class="w3-hover-shadow">
+                <div class="places-title">Gibson's Italia
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_maple_and_ash.jpg" style="width:100%;cursor:pointer" onclick="openModal();currentDiv(5)" class="w3-hover-shadow">
+                <div class="places-title">Maple & Ash
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_the_dawson.jpg" style="width:100%;cursor:pointer" onclick="openModal();currentDiv(6)" class="w3-hover-shadow">
+               <div class="places-title">The Dawson
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_centennial.jpg" style="width:100%;cursor:pointer" onclick="openModal();currentDiv(7)" class="w3-hover-shadow">
+               <div class="places-title">Centennial
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_rpm_steak.jpg" style="width:100%;cursor:pointer" onclick="openModal();currentDiv(8)" class="w3-hover-shadow">
+               <div class="places-title">RPM Steak
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div><!-- End swiper-wrapper -->
+        <!-- Add Arrows -->  
+        <div class="swiper-button-prev"><button type="button" class="button_1u508oj-o_O-button_styleInverse_iqqq9m-o_O-button_floating_1ntp0dv" aria-busy="false" style="width: 40px; height: 40px;"><span class="icon_16lfbsn-o_O-icon_styleInverse_3mnosr" style="font-size: 20px;"><svg viewBox="0 0 18 18" role="img" aria-label="shared_previous" focusable="false" style="display: block; fill: currentcolor; height: 1em; width: 1em;"><path fill-rule="evenodd" d="M13.703 16.293a1 1 0 1 1-1.415 1.414l-7.995-8a1 1 0 0 1 0-1.414l7.995-8a1 1 0 1 1 1.415 1.414L6.413 9l7.29 7.293z"></path></svg></span></button>
+        </div>
+        <div class="swiper-button-next"><button type="button" class="button_1u508oj-o_O-button_styleInverse_iqqq9m-o_O-button_floating_1ntp0dv" aria-busy="false" style="width: 40px; height: 40px;"><span class="icon_16lfbsn-o_O-icon_styleInverse_3mnosr" style="font-size: 20px;"><svg viewBox="0 0 18 18" role="img" aria-label="Next" focusable="false" style="display: block; fill: currentcolor; height: 1em; width: 1em;"><path fill-rule="evenodd" d="M4.293 1.707A1 1 0 1 1 5.708.293l7.995 8a1 1 0 0 1 0 1.414l-7.995 8a1 1 0 1 1-1.415-1.414L11.583 9l-7.29-7.293z"></path></svg></span></button>
+        </div>
+      </div><!-- End swiper-container experiences-slider -->
+
+    <div id="myModal" class="w3-modal w3-black" data-keyboard="true" data-toggle="modal" tabindex='-1'>
+      <span class="w3-display-left w3-btn" onclick="plusDivs(-1)">❮</span>
+      <span class="w3-display-right w3-btn" onclick="plusDivs(1)">❯</span>   
+      
+      <div class="w3-modal-content">
+      <span class="w3-text-black w3-xxlarge w3-hover-text-grey w3-container w3-display-topright" onclick="closeModal()" style="cursor:pointer">×</span>
+        <div class="w3-content">
+          <img class="mySlides" src="/assets/themes/896/images/places_big_star.jpg" style="width:100%" alt="Big Star">
+          <img class="mySlides" src="/assets/themes/896/images/places_au_cheval.jpg" style="width:100%" alt="Au Cheval">
+          <img class="mySlides" src="/assets/themes/896/images/places_green_street_smoked_meats.jpg" style="width:100%" alt="Green Street Smoked Meats">
+          <img class="mySlides" src="/assets/themes/896/images/places_gibsons_italia.jpg" style="width:100%" alt="Gibsons">
+          <img class="mySlides" src="/assets/themes/896/images/places_maple_and_ash.jpg" style="width:100%" alt="Maple & Ash">
+          <img class="mySlides" src="/assets/themes/896/images/places_the_dawson.jpg" style="width:100%" alt="The Dawson">
+          <img class="mySlides" src="/assets/themes/896/images/places_centennial.jpg" style="width:100%" alt="Centennial">
+          <img class="mySlides" src="/assets/themes/896/images/places_rpm_steak.jpg" style="width:100%" alt="RPM Steak">
+          <div class="w3-row">
+            
+            <div class="modal-places-title">Big Star
+            </div>
+            <div class="places-description">Fun, friendly and with shared seating inside and out, Big Star has an authentic Mexican taqueria feel with boisterous groups washing down shots of tequila with beers. The famed micheladas make an excellent accompaniment to the delectable taco al pastor, but any alcohol-taco combination will do.
+            </div>
+            <div class="location-marker">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/wicker-park" class="location-marker-neighborhood">Wicker Park</a>
+            </div>
+            <div class="places-address"><a href="https://www.google.com/maps/place/Big+Star/@41.9286665,-87.6848838,14z/data=!4m8!1m2!2m1!1sbig+star!3m4!1s0x880fd2c76fc30bc3:0x50a58e733b2a9e6f!8m2!3d41.909172!4d-87.6771055">
+            1531 N Damen</a>
+            </div>
+            
+            <div class="modal-places-title">Au Cheval
+            </div>
+            <div class="places-description">The see and be seen steakhouse, over the top place and great for a business dinner.
+            </div>
+            <div class="location-marker">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/gold-coast" class="location-marker-neighborhood">Gold Coast</a>
+            </div>
+            <div class="places-address"><a href="https://www.google.com/maps/place/Maple+%26+Ash/@41.902097,-87.6309437,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd34e28a3c113:0x2b1a3693512e2af4!8m2!3d41.902093!4d-87.628755">
+            8 W Maple</a>
+            </div>
+            
+            <div class="modal-places-title">Green Street Smoked Meats
+            </div>
+            <div class="places-description">Located down a brick paved alley in Chicago's West Loop neighborhood, the nationally acclaimed Green Street Smoked Meats beckons guests with rock music and house-smoked Texas-inspired BBQ in a warehouse-style restaurant.
+            </div>
+            <div class="location-marker">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/west-loop" class="location-marker-neighborhood">West Loop</a>
+            </div>
+            <div class="places-address"><a href="https://www.google.com/maps/place/Green+Street+Smoked+Meats/@41.8836616,-87.6510965,17z/data=!3m1!4b1!4m5!3m4!1s0x880e2cdada11ec83:0x80efebef8ac426c6!8m2!3d41.8836576!4d-87.6489078">
+            112 N Green</a>
+            </div>
+            
+            <div class="modal-places-title">Gibsons Italia
+            </div>
+            <div class="places-description">Gibsons Italia is a lavish three-level Italian steakhouse that includes a third-floor bar with a retractable roof. This newly-opened gem sits along the Chicago River just a short walk from The Loop business district. 
+            </div>
+            <div class="location-marker">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/west-loop" class="location-marker-neighborhood">West Loop</a>
+            </div>
+            <div class="places-address"><a href="https://www.google.com/maps/place/Gibsons+Italia/@41.8860451,-87.6420311,17z/data=!3m1!4b1!4m5!3m4!1s0x880e2cc87249e577:0x54a5c89a458e4c3f!8m2!3d41.8860411!4d-87.6398424">
+            233 N Canal</a>
+            </div>
+            
+            <div class="modal-places-title">Maple & Ash
+            </div>
+            <div class="places-description">The see and be seen steakhouse, over the top place and great for a business dinner.
+            </div>
+            <div class="location-marker">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/gold-coast" class="location-marker-neighborhood">Gold Coast</a>
+            </div>
+            <div class="places-address"><a href="https://www.google.com/maps/place/Maple+%26+Ash/@41.902097,-87.6309437,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd34e28a3c113:0x2b1a3693512e2af4!8m2!3d41.902093!4d-87.628755">
+            8 W Maple</a>
+            </div>
+            
+            <div class="modal-places-title">The Dawson
+            </div>
+            <div class="places-description">The see and be seen steakhouse, over the top place and great for a business dinner.
+            </div>
+            <div class="location-marker">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/gold-coast" class="location-marker-neighborhood">Gold Coast</a>
+            </div>
+            <div class="places-address"><a href="https://www.google.com/maps/place/Maple+%26+Ash/@41.902097,-87.6309437,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd34e28a3c113:0x2b1a3693512e2af4!8m2!3d41.902093!4d-87.628755">
+            8 W Maple</a>
+            </div>
+            
+            <div class="modal-places-title">Centennial
+            </div>
+            <div class="places-description">The see and be seen steakhouse, over the top place and great for a business dinner.
+            </div>
+            <div class="location-marker">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/gold-coast" class="location-marker-neighborhood">Gold Coast</a>
+            </div>
+            <div class="places-address"><a href="https://www.google.com/maps/place/Maple+%26+Ash/@41.902097,-87.6309437,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd34e28a3c113:0x2b1a3693512e2af4!8m2!3d41.902093!4d-87.628755">
+            8 W Maple</a>
+            </div>
+            
+            <div class="modal-places-title">RPM Steak
+            </div>
+            <div class="places-description">The see and be seen steakhouse, over the top place and great for a business dinner.
+            </div>
+            <div class="location-marker">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/gold-coast" class="location-marker-neighborhood">Gold Coast</a>
+            </div>
+            <div class="places-address"><a href="https://www.google.com/maps/place/Maple+%26+Ash/@41.902097,-87.6309437,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd34e28a3c113:0x2b1a3693512e2af4!8m2!3d41.902093!4d-87.628755">
+            8 W Maple</a>
+            </div>
+            
+          </div> <!-- End row -->
+        </div> <!-- End w3-content -->
+      </div> <!-- End modal content -->
+    </div> <!-- End modal -->
+    
+    
+    <!-- BARS -->
+    
+    <div class="swiper-container experiences-slider">
+        <div class="swiper-container-title-container">
+          <div class="swiper-container-title">
+            Bars
+          </div>
+        </div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_publican_anker.jpg" style="width:100%;cursor:pointer" onclick="openModal2();currentDiv2(1)" class="w3-hover-shadow">
+                <div class="places-title">Publican Anker
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_the_drifter.jpg" style="width:100%;cursor:pointer" onclick="openModal2();currentDiv2(2)" class="w3-hover-shadow">
+                <div class="places-title">The Drifter
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_mauds.jpg" style="width:100%;cursor:pointer" onclick="openModal2();currentDiv2(3)" class="w3-hover-shadow">
+                <div class="places-title">Maud's Liquor Bar
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_beatnik.jpg" style="width:100%;cursor:pointer" onclick="openModal2();currentDiv2(4)" class="w3-hover-shadow">
+                <div class="places-title">Beatnik
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_the_violet_hour.jpg" style="width:100%;cursor:pointer" onclick="openModal2();currentDiv2(5)" class="w3-hover-shadow">
+                <div class="places-title">The Violet Hour
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_cherry_circle_room.jpg" style="width:100%;cursor:pointer" onclick="openModal2();currentDiv2(6)" class="w3-hover-shadow">
+               <div class="places-title">Cherry Circle Room
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_ch_distillery.jpg" style="width:100%;cursor:pointer" onclick="openModal2();currentDiv2(7)" class="w3-hover-shadow">
+               <div class="places-title">CH Distillery
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_sparrow.jpg" style="width:100%;cursor:pointer" onclick="openModal2();currentDiv2(8)" class="w3-hover-shadow">
+               <div class="places-title">Sparrow
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_the_aviary.jpg" style="width:100%;cursor:pointer" onclick="openModal2();currentDiv2(9)" class="w3-hover-shadow">
+               <div class="places-title">The Aviary
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_arbella.jpg" style="width:100%;cursor:pointer" onclick="openModal2();currentDiv2(10)" class="w3-hover-shadow">
+               <div class="places-title">Arbella
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide" data-name="">
+            <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+              <a class="summary-thumbnail-container sqs-gallery-image-container"><img src="/assets/themes/896/images/places_three_dots_and_a_dash.jpg" style="width:100%;cursor:pointer" onclick="openModal2();currentDiv2(11)" class="w3-hover-shadow">
+               <div class="places-title">Three Dots and a Dash
+                  <a href="/" class="summary-title-link"></a>
+                </div>
+              </a>
+            </div>
+          </div>
+          
+        </div><!-- End swiper-wrapper -->
+        <!-- Add Arrows -->  
+        <div class="swiper-button-prev"><button type="button" class="button_1u508oj-o_O-button_styleInverse_iqqq9m-o_O-button_floating_1ntp0dv" aria-busy="false" style="width: 40px; height: 40px;"><span class="icon_16lfbsn-o_O-icon_styleInverse_3mnosr" style="font-size: 20px;"><svg viewBox="0 0 18 18" role="img" aria-label="shared_previous" focusable="false" style="display: block; fill: currentcolor; height: 1em; width: 1em;"><path fill-rule="evenodd" d="M13.703 16.293a1 1 0 1 1-1.415 1.414l-7.995-8a1 1 0 0 1 0-1.414l7.995-8a1 1 0 1 1 1.415 1.414L6.413 9l7.29 7.293z"></path></svg></span></button>
+        </div>
+        <div class="swiper-button-next"><button type="button" class="button_1u508oj-o_O-button_styleInverse_iqqq9m-o_O-button_floating_1ntp0dv" aria-busy="false" style="width: 40px; height: 40px;"><span class="icon_16lfbsn-o_O-icon_styleInverse_3mnosr" style="font-size: 20px;"><svg viewBox="0 0 18 18" role="img" aria-label="Next" focusable="false" style="display: block; fill: currentcolor; height: 1em; width: 1em;"><path fill-rule="evenodd" d="M4.293 1.707A1 1 0 1 1 5.708.293l7.995 8a1 1 0 0 1 0 1.414l-7.995 8a1 1 0 1 1-1.415-1.414L11.583 9l-7.29-7.293z"></path></svg></span></button>
+        </div>
+      </div><!-- End swiper-container experiences-slider -->
+
+    <div id="myModal2" class="w3-modal w3-black" data-keyboard="true" data-toggle="modal" tabindex='-1'>
+      <span class="w3-display-left w3-btn" onclick="plusDivs2(-1)">❮</span>
+      <span class="w3-display-right w3-btn" onclick="plusDivs2(1)">❯</span>   
+      
+      <div class="w3-modal-content">
+      <span class="w3-text-black w3-xxlarge w3-hover-text-grey w3-container w3-display-topright" onclick="closeModal2()" style="cursor:pointer">×</span>
+        <div class="w3-content">
+          <img class="mySlides2" src="/assets/themes/896/images/places_publican_anker.jpg" style="width:100%" alt="Publican Anker">
+          <img class="mySlides2" src="/assets/themes/896/images/places_the_drifter.jpg" style="width:100%" alt="The Drifter">
+          <img class="mySlides2" src="/assets/themes/896/images/places_mauds.jpg" style="width:100%" alt="Maud's Liquor Bar">
+          <img class="mySlides2" src="/assets/themes/896/images/places_beatnik.jpg" style="width:100%" alt="Beatnik">
+          <img class="mySlides2" src="/assets/themes/896/images/places_the_violet_hour.jpg" style="width:100%" alt="The Violet Hour">
+          <img class="mySlides2" src="/assets/themes/896/images/places_cherry_circle_room.jpg" style="width:100%" alt="Cherry Circle Room">
+          <img class="mySlides2" src="/assets/themes/896/images/places_ch_distillery.jpg" style="width:100%" alt="CH Distillery">
+          <img class="mySlides2" src="/assets/themes/896/images/places_sparrow.jpg" style="width:100%" alt="Sparrow">
+          <img class="mySlides2" src="/assets/themes/896/images/places_the_aviary.jpg" style="width:100%" alt="The Aviary">
+          <img class="mySlides2" src="/assets/themes/896/images/places_arbella.jpg" style="width:100%" alt="Arbella">
+          <img class="mySlides2" src="/assets/themes/896/images/places_three_dots_and_a_dash.jpg" style="width:100% alt="Three Dots and a Dash">
+          <div class="w3-row">
+            
+            <div class="modal-places-title2">Publican Anker
+            </div>
+            <div class="places-description2">Fun, friendly and with shared seating inside and out, Big Star has an authentic Mexican taqueria feel with boisterous groups washing down shots of tequila with beers. The famed micheladas make an excellent accompaniment to the delectable taco al pastor, but any alcohol-taco combination will do.
+            </div>
+            <div class="location-marker2">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/wicker-park" class="location-marker-neighborhood">Wicker Park</a>
+            </div>
+            <div class="places-address2"><a href="https://www.google.com/maps/place/Big+Star/@41.9286665,-87.6848838,14z/data=!4m8!1m2!2m1!1sbig+star!3m4!1s0x880fd2c76fc30bc3:0x50a58e733b2a9e6f!8m2!3d41.909172!4d-87.6771055">
+            1531 N Damen</a>
+            </div>
+            
+            <div class="modal-places-title2">The Drifter
+            </div>
+            <div class="places-description2">The see and be seen steakhouse, over the top place and great for a business dinner.
+            </div>
+            <div class="location-marker2">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/river-north" class="location-marker-neighborhood">River North</a>
+            </div>
+            <div class="places-address2"><a href="https://www.google.com/maps/place/Maple+%26+Ash/@41.902097,-87.6309437,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd34e28a3c113:0x2b1a3693512e2af4!8m2!3d41.902093!4d-87.628755">
+            8 W Maple</a>
+            </div>
+            
+            <div class="modal-places-title2">Maud's Liquor Bar
+            </div>
+            <div class="places-description2">Gibsons Italia is a lavish three-level Italian steakhouse that includes a third-floor bar with a retractable roof. This newly-opened gem sits along the Chicago River just a short walk from The Loop business district. 
+            </div>
+            <div class="location-marker2">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/west-loop" class="location-marker-neighborhood">West Loop</a>
+            </div>
+            <div class="places-address2"><a href="https://www.google.com/maps/place/Gibsons+Italia/@41.8860451,-87.6420311,17z/data=!3m1!4b1!4m5!3m4!1s0x880e2cc87249e577:0x54a5c89a458e4c3f!8m2!3d41.8860411!4d-87.6398424">
+            233 N Canal</a>
+            </div>
+            
+            <div class="modal-places-title2">Beatnik
+            </div>
+            <div class="places-description2">Located down a brick paved alley in Chicago's West Loop neighborhood, the nationally acclaimed Green Street Smoked Meats beckons guests with rock music and house-smoked Texas-inspired BBQ in a warehouse-style restaurant.
+            </div>
+            <div class="location-marker2">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="" class="location-marker-neighborhood">West Town</a>
+            </div>
+            <div class="places-address2"><a href="https://www.google.com/maps/place/Green+Street+Smoked+Meats/@41.8836616,-87.6510965,17z/data=!3m1!4b1!4m5!3m4!1s0x880e2cdada11ec83:0x80efebef8ac426c6!8m2!3d41.8836576!4d-87.6489078">
+            112 N Green</a>
+            </div>
+            
+            <div class="modal-places-title2">The Violet Hour
+            </div>
+            <div class="places-description2">The see and be seen steakhouse, over the top place and great for a business dinner.
+            </div>
+            <div class="location-marker2">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/wicker-park" class="location-marker-neighborhood">Wicker Park</a>
+            </div>
+            <div class="places-address2"><a href="https://www.google.com/maps/place/Maple+%26+Ash/@41.902097,-87.6309437,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd34e28a3c113:0x2b1a3693512e2af4!8m2!3d41.902093!4d-87.628755">
+            8 W Maple</a>
+            </div>
+            
+            <div class="modal-places-title2">Cherry Circle Room
+            </div>
+            <div class="places-description2">The see and be seen steakhouse, over the top place and great for a business dinner.
+            </div>
+            <div class="location-marker2">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/the-loop" class="location-marker-neighborhood">The Loop</a>
+            </div>
+            <div class="places-address2"><a href="https://www.google.com/maps/place/Maple+%26+Ash/@41.902097,-87.6309437,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd34e28a3c113:0x2b1a3693512e2af4!8m2!3d41.902093!4d-87.628755">
+            8 W Maple</a>
+            </div>
+            
+            <div class="modal-places-title2">CH Distillery
+            </div>
+            <div class="places-description2">The see and be seen steakhouse, over the top place and great for a business dinner.
+            </div>
+            <div class="location-marker2">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/west-loop" class="location-marker-neighborhood">West Loop</a>
+            </div>
+            <div class="places-address2"><a href="https://www.google.com/maps/place/Maple+%26+Ash/@41.902097,-87.6309437,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd34e28a3c113:0x2b1a3693512e2af4!8m2!3d41.902093!4d-87.628755">
+            8 W Maple</a>
+            </div>
+            
+            <div class="modal-places-title2">Sparrow
+            </div>
+            <div class="places-description2">The see and be seen steakhouse, over the top place and great for a business dinner.
+            </div>
+            <div class="location-marker2">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/gold-coast" class="location-marker-neighborhood">Gold Coast</a>
+            </div>
+            <div class="places-address2"><a href="https://www.google.com/maps/place/Maple+%26+Ash/@41.902097,-87.6309437,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd34e28a3c113:0x2b1a3693512e2af4!8m2!3d41.902093!4d-87.628755">
+            8 W Maple</a>
+            </div>
+            
+            <div class="modal-places-title2">The Aviary
+            </div>
+            <div class="places-description2">The see and be seen steakhouse, over the top place and great for a business dinner.
+            </div>
+            <div class="location-marker2">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/west-loop" class="location-marker-neighborhood">West Loop</a>
+            </div>
+            <div class="places-address2"><a href="https://www.google.com/maps/place/Maple+%26+Ash/@41.902097,-87.6309437,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd34e28a3c113:0x2b1a3693512e2af4!8m2!3d41.902093!4d-87.628755">
+            8 W Maple</a>
+            </div>
+            
+            <div class="modal-places-title2">Arbella
+            </div>
+            <div class="places-description2">The see and be seen steakhouse, over the top place and great for a business dinner.
+            </div>
+            <div class="location-marker2">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/river-north" class="location-marker-neighborhood">River North</a>
+            </div>
+            <div class="places-address2"><a href="https://www.google.com/maps/place/Maple+%26+Ash/@41.902097,-87.6309437,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd34e28a3c113:0x2b1a3693512e2af4!8m2!3d41.902093!4d-87.628755">
+            8 W Maple</a>
+            </div>
+            
+            <div class="modal-places-title2">Three Dots and a Dash
+            </div>
+            <div class="places-description2">The see and be seen steakhouse, over the top place and great for a business dinner.
+            </div>
+            <div class="location-marker2">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <a href="/en/river-north" class="location-marker-neighborhood">River North</a>
+            </div>
+            <div class="places-address2"><a href="https://www.google.com/maps/place/Maple+%26+Ash/@41.902097,-87.6309437,17z/data=!3m1!4b1!4m5!3m4!1s0x880fd34e28a3c113:0x2b1a3693512e2af4!8m2!3d41.902093!4d-87.628755">
+            8 W Maple</a>
+            </div>
+            
+          </div> <!-- End row -->
+        </div> <!-- End w3-content -->
+      </div> <!-- End modal content -->
+    </div> <!-- End modal -->
+
+    
+    <div class="swiper-container experiences-slider">
+      <div class="swiper-container-title-container">
+        <div class="swiper-container-title">
+          Cafes
+        </div>
+      </div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a href="" class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_cindys.jpg" style="width: 100%;"/></a>  
+              <div class="places-title">Cafe Robey
+                <a href="/" class="summary-title-link"></a>
+              </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a href="" class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_cindys.jpg" style="width: 100%;"/></a>  
+              <div class="places-title">The Wormhole Coffee
+                <a href="/" class="summary-title-link"></a>
+              </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a href="" class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_up_and_up.jpg" style="width: 100%;"/></a> 
+              <div class="places-title">Ipsento
+              <a href="/" class="summary-title-link"></a>
+              </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_big_star.jpg" style="width: 100%;"/></a>
+              <div class="places-title">Asado Coffee
+                <a href="/" class="summary-title-link"></a>
+              </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_big_star.jpg" style="width: 100%;"/></a>
+              <div class="places-title">Goddess and The Baker 
+                <a href="/" class="summary-title-link"></a>
+              </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_big_star.jpg" style="width: 100%;"/></a>
+              <div class="places-title">Toni Patisserie
+                <a href="/" class="summary-title-link"></a>
+              </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_big_star.jpg" style="width: 100%;"/></a>
+              <div class="places-title">Amorino
+                <a href="/" class="summary-title-link"></a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination pag-suites">
+      </div>
+      <!-- Add Arrows -->  
+      <div class="swiper-button-prev"><button type="button" class="button_1u508oj-o_O-button_styleInverse_iqqq9m-o_O-button_floating_1ntp0dv" aria-busy="false" style="width: 40px; height: 40px;"><span class="icon_16lfbsn-o_O-icon_styleInverse_3mnosr" style="font-size: 20px;"><svg viewBox="0 0 18 18" role="img" aria-label="shared_previous" focusable="false" style="display: block; fill: currentcolor; height: 1em; width: 1em;"><path fill-rule="evenodd" d="M13.703 16.293a1 1 0 1 1-1.415 1.414l-7.995-8a1 1 0 0 1 0-1.414l7.995-8a1 1 0 1 1 1.415 1.414L6.413 9l7.29 7.293z"></path></svg></span></button>
+      </div>
+      <div class="swiper-button-next"><button type="button" class="button_1u508oj-o_O-button_styleInverse_iqqq9m-o_O-button_floating_1ntp0dv" aria-busy="false" style="width: 40px; height: 40px;"><span class="icon_16lfbsn-o_O-icon_styleInverse_3mnosr" style="font-size: 20px;"><svg viewBox="0 0 18 18" role="img" aria-label="Next" focusable="false" style="display: block; fill: currentcolor; height: 1em; width: 1em;"><path fill-rule="evenodd" d="M4.293 1.707A1 1 0 1 1 5.708.293l7.995 8a1 1 0 0 1 0 1.414l-7.995 8a1 1 0 1 1-1.415-1.414L11.583 9l-7.29-7.293z"></path></svg></span></button>
+      </div>
+    </div>
+
+    <div class="swiper-container experiences-slider">
+      <div class="swiper-container-title-container">
+        <div class="swiper-container-title">
+          Attractions
+        </div>
+      </div>
+      <div class="swiper-wrapper">
+       <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a href="" class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_riverwalk.jpg" style="width: 100%;"/></a>  
+              <div class="places-title">Riverwalk
+                <a href="/" class="summary-title-link"></a>
+              </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a href="" class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_art_institute.jpg" style="width: 100%;"/></a> 
+              <div class="places-title">The Art Institute of Chicago
+              <a href="/" class="summary-title-link"></a>
+              </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a class="summary-thumbnail-container sqs-gallery-image-container">
+            <img src="/assets/themes/896/images/places_the606.jpg" style="width: 100%;"/></a> 
+            <div class="places-title">Bloomingdale Trail (The 606)
+              <a href="/" class="summary-title-link"></a>
+            </div>
+          </div>
+        </div> 
+       <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_big_star.jpg" style="width: 100%;"/></a>
+            <div class="places-title">Big Star
+              <a href="/" class="summary-title-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_big_star.jpg" style="width: 100%;"/></a>
+            <div class="places-title">Big Star
+              <a href="/" class="summary-title-link"></a>
+            </div>
+          </div>
+        </div> 
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_big_star.jpg" style="width: 100%;"/></a>
+            <div class="places-title">Big Star
+              <a href="/" class="summary-title-link"></a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_big_star.jpg" style="width: 100%;"/></a>
+            <div class="places-title">Big Star
+              <a href="/" class="summary-title-link"></a>
+            </div>
+          </div>
+        </div> 
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_big_star.jpg" style="width: 100%;"/></a>
+            <div class="places-title">Big Star
+              <a href="/" class="summary-title-link"></a>
+            </div>
+          </div>
+        </div> 
+        <div class="swiper-slide" data-name="">
+          <div class="summary-thumbnail-container-experiences sqs-gallery-image-container">
+            <a class="summary-thumbnail-container sqs-gallery-image-container"> <img src="/assets/themes/896/images/places_big_star.jpg" style="width: 100%;"/></a>
+            <div class="places-title">Big Star
+              <a href="/" class="summary-title-link"></a>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination pag-suites"></div>
+      <!-- Add Arrows -->  
+      <div class="swiper-button-prev"><button type="button" class="button_1u508oj-o_O-button_styleInverse_iqqq9m-o_O-button_floating_1ntp0dv" aria-busy="false" style="width: 40px; height: 40px;"><span class="icon_16lfbsn-o_O-icon_styleInverse_3mnosr" style="font-size: 20px;"><svg viewBox="0 0 18 18" role="img" aria-label="shared_previous" focusable="false" style="display: block; fill: currentcolor; height: 1em; width: 1em;"><path fill-rule="evenodd" d="M13.703 16.293a1 1 0 1 1-1.415 1.414l-7.995-8a1 1 0 0 1 0-1.414l7.995-8a1 1 0 1 1 1.415 1.414L6.413 9l7.29 7.293z"></path></svg></span></button>
+      </div>
+      <div class="swiper-button-next"><button type="button" class="button_1u508oj-o_O-button_styleInverse_iqqq9m-o_O-button_floating_1ntp0dv" aria-busy="false" style="width: 40px; height: 40px;"><span class="icon_16lfbsn-o_O-icon_styleInverse_3mnosr" style="font-size: 20px;"><svg viewBox="0 0 18 18" role="img" aria-label="Next" focusable="false" style="display: block; fill: currentcolor; height: 1em; width: 1em;"><path fill-rule="evenodd" d="M4.293 1.707A1 1 0 1 1 5.708.293l7.995 8a1 1 0 0 1 0 1.414l-7.995 8a1 1 0 1 1-1.415-1.414L11.583 9l-7.29-7.293z"></path></svg></span></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+</script>
+
+<script>
+// Handle ESC key (key code 27)
+document.addEventListener('keyup', function(e) {
+    if (e.keyCode == 27) {
+        closeModal();
+    }
+    if (modal.style.display == "block") {
+      if (e.keyCode == 37) {    
+          plusDivs(-1)
+      }
+      if (e.keyCode == 39) {    
+          plusDivs(1)
+      }
+    }
+});
+</script>
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var placesTitle = document.getElementsByClassName("modal-places-title");
+  var placesDescription = document.getElementsByClassName("places-description");
+  var placesLocation = document.getElementsByClassName("location-marker");
+  var placesAddress = document.getElementsByClassName("places-address");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  } 
+  if (n > placesTitle.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = placesTitle.length}
+  for (i = 0; i < placesTitle.length; i++) {
+     placesTitle[i].style.display = "none";
+  }
+  if (n > placesDescription.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = placesDescription.length}
+  for (i = 0; i < placesDescription.length; i++) {
+     placesDescription[i].style.display = "none";
+  }
+  if (n > placesLocation.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = placesLocation.length}
+  for (i = 0; i < placesLocation.length; i++) {
+     placesLocation[i].style.display = "none";
+  }
+  if (n > placesAddress.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = placesAdress.length}
+  for (i = 0; i < placesAddress.length; i++) {
+     placesAddress[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+  placesTitle[slideIndex-1].style.display = "block";
+  placesDescription[slideIndex-1].style.display = "block";
+  placesLocation[slideIndex-1].style.display = "block";
+  placesAddress[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+
+
+
+<script>
+// Get the modal
+var modal2 = document.getElementById('myModal2');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+</script>
+
+<script>
+// Handle ESC key (key code 27)
+document.addEventListener('keyup', function(e) {
+    if (e.keyCode == 27) {
+        closeModal2();
+    }
+    if (modal2.style.display == "block") {
+      if (e.keyCode == 37) {    
+          plusDivs2(-1)
+      }
+      if (e.keyCode == 39) {    
+          plusDivs2(1)
+      }
+    }
+});
+</script>
+
+<script>
+function openModal2() {
+  document.getElementById('myModal2').style.display = "block";
+}
+
+function closeModal2() {
+  document.getElementById('myModal2').style.display = "none";
+}
+
+var slideIndex2 = 1;
+showDivs2(slideIndex2);
+
+function plusDivs2(n) {
+  showDivs2(slideIndex2 += n);
+}
+
+function currentDiv2(n) {
+  showDivs2(slideIndex2 = n);
+}
+
+function showDivs2(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  var placesTitle2 = document.getElementsByClassName("modal-places-title2");
+  var placesDescription2 = document.getElementsByClassName("places-description2");
+  var placesLocation2 = document.getElementsByClassName("location-marker2");
+  var placesAddress2 = document.getElementsByClassName("places-address2");
+  if (n > x.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  } 
+  if (n > placesTitle2.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = placesTitle2.length}
+  for (i = 0; i < placesTitle2.length; i++) {
+     placesTitle2[i].style.display = "none";
+  }
+  if (n > placesDescription2.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = placesDescription2.length}
+  for (i = 0; i < placesDescription2.length; i++) {
+     placesDescription2[i].style.display = "none";
+  }
+  if (n > placesLocation2.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = placesLocation2.length}
+  for (i = 0; i < placesLocation2.length; i++) {
+     placesLocation2[i].style.display = "none";
+  }
+  if (n > placesAddress2.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = placesAdress2.length}
+  for (i = 0; i < placesAddress2.length; i++) {
+     placesAddress2[i].style.display = "none";
+  }
+  x[slideIndex2-1].style.display = "block";
+  placesTitle2[slideIndex2-1].style.display = "block";
+  placesDescription2[slideIndex2-1].style.display = "block";
+  placesLocation2[slideIndex2-1].style.display = "block";
+  placesAddress2[slideIndex2-1].style.display = "block";
+}
+</script>
+
+<script>
+var mySwiper3 = new Swiper('.experiences-slider', {
+  // Optional parameters
+  pagination: '.pag-suites',
+  paginationClickable: true,
+  nextButton: '.swiper-button-next',
+  prevButton: '.swiper-button-prev',
+  freeMode: true,
+  freeModeMomentumRatio: .75,
+  freeModeMomentumVelocityRatio: 2,
+  speed: 500,
+   // Default parameters
+  slidesPerView: 4.1,
+  spaceBetween: 16,
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is <= 320px
+    320: {
+      slidesPerView: 2.2,
+      spaceBetween: 12
+    },
+    // when window width is <= 480px
+    480: {
+      slidesPerView: 2.2,
+      spaceBetween: 12
+    },
+    // when window width is <= 640px
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 12
+    },
+    // when window width is <= 768px
+    768: {
+      slidesPerView: 3.5,
+      spaceBetween: 12
+    },
+    // when window width is <= 1440px
+    1440: {
+      slidesPerView: 4.1,
+      spaceBetween: 12
+    }
+  }
+  
+});
+  
+</script> 
+
+
+
